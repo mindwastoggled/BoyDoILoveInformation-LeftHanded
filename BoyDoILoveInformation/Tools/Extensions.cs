@@ -16,10 +16,11 @@ public enum GamePlatform
 
 public static class Extensions
 {
-    public static Dictionary<VRRig, GamePlatform> PlayerPlatforms      = new();
-    public static Dictionary<VRRig, List<string>> PlayerMods           = new();
-    public static Dictionary<string, DateTime>    AccountCreationDates = new();
-    public static List<VRRig>                     PlayersWithCosmetics = [];
+    public static          Dictionary<VRRig, GamePlatform> PlayerPlatforms      = new();
+    public static          Dictionary<VRRig, List<string>> PlayerMods           = new();
+    public static          Dictionary<string, DateTime>    AccountCreationDates = new();
+    public static          List<VRRig>                     PlayersWithCosmetics = [];
+    public static readonly Dictionary<VRRig, int>          PlayerPing           = new();
 
     public static GamePlatform GetPlatform(this VRRig rig) =>
             PlayerPlatforms.GetValueOrDefault(rig, GamePlatform.Unknown);
@@ -44,7 +45,7 @@ public static class Extensions
     public static bool HasCosmetics(this VRRig rig) => PlayersWithCosmetics.Contains(rig);
 
     public static int GetPing(this VRRig rig) =>
-            BDILIUtils.PlayerPing.TryGetValue(rig, out int ping) ? ping : PhotonNetwork.GetPing();
+            PlayerPing.TryGetValue(rig, out int ping) ? ping : PhotonNetwork.GetPing();
     
     public static string InsertNewlinesWithRichText(this string input, int interval)
     {

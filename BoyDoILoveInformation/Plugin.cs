@@ -22,6 +22,7 @@ public class Plugin : BaseUnityPlugin
 
     public static Dictionary<string, string> KnownCheats;
     public static Dictionary<string, string> KnownMods;
+    public static string[]                   HanSoloPlayerIDs;
 
     public static Color MainColour;
     public static Color SecondaryColour;
@@ -88,7 +89,7 @@ public class Plugin : BaseUnityPlugin
             return;
         }
         
-        FetchModsAndCheats();
+        FetchModsAndCheatsAndPlayerIDs();
 
         PluginAudioSource              = new GameObject("LocalAudioSource").AddComponent<AudioSource>();
         PluginAudioSource.spatialBlend = 0f;
@@ -100,7 +101,7 @@ public class Plugin : BaseUnityPlugin
         gameObject.AddComponent<MenuHandler>();
     }
 
-    private void FetchModsAndCheats()
+    private void FetchModsAndCheatsAndPlayerIDs()
     {
         using HttpClient httpClient = new();
         HttpResponseMessage gorillaInfoEndPointResponse =
@@ -122,6 +123,17 @@ public class Plugin : BaseUnityPlugin
             using (StreamReader reader = new(stream))
             {
                 KnownMods = JsonConvert.DeserializeObject<Dictionary<string, string>>(reader.ReadToEnd());
+            }
+        }
+        
+        HttpResponseMessage hanSoloPlayerIdsEndPointResponse =
+                httpClient.GetAsync(GorillaInfoEndPointURL + "HanSoloPlayerId").Result;
+
+        using (Stream stream = knownModsEndPointResponse.Content.ReadAsStreamAsync().Result)
+        {
+            using (StreamReader reader = new(stream))
+            {
+                HanSoloPlayerIDs = JsonConvert.DeserializeObject<string[]>(reader.ReadToEnd());
             }
         }
     }

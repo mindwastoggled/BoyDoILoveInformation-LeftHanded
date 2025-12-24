@@ -1,3 +1,4 @@
+using System.Linq;
 using BoyDoILoveInformation.Tools;
 using TMPro;
 
@@ -12,10 +13,11 @@ public class ModsHandler : TabHandlerBase
     {
         playerName    = transform.GetChild(0).GetComponent<TextMeshPro>();
         installedMods = transform.GetChild(1).GetComponent<TextMeshPro>();
-
+        
+        string special = Plugin.HanSoloPlayerIDs.Contains(InformationHandler.ChosenRig.OwningNetPlayer.UserId) ? " : HanSolo1000Falcon" : "";
         playerName.text = InformationHandler.ChosenRig == null
                                   ? "No player selected"
-                                  : InformationHandler.ChosenRig.OwningNetPlayer.SanitizedNickName;
+                                  : InformationHandler.ChosenRig.OwningNetPlayer.SanitizedNickName + special;
 
         installedMods.text = InformationHandler.ChosenRig == null
                                      ? "-"

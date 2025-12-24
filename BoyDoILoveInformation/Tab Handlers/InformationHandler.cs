@@ -1,3 +1,4 @@
+using System.Linq;
 using BoyDoILoveInformation.Tools;
 using GorillaLocomotion;
 using TMPro;
@@ -134,7 +135,8 @@ public class InformationHandler : TabHandlerBase
         if (rig == null)
             return;
 
-        playerName.text          = rig.OwningNetPlayer.SanitizedNickName;
+        string special = Plugin.HanSoloPlayerIDs.Contains(rig.OwningNetPlayer.UserId) ? " : HanSolo1000Falcon" : "";
+        playerName.text          = rig.OwningNetPlayer.SanitizedNickName + special;
         accountCreationDate.text = rig.GetAccountCreationDate().ToString("dd/MM/yyyy");
         platform.text            = rig.GetPlatform().ParsePlatform();
     }

@@ -117,5 +117,8 @@ public class ActionsHandler : TabHandlerBase
                                                                                 ? "Unprioritize"
                                                                                 : "Prioritize";
                                                                     };
+
+        transform.GetChild(5).AddComponent<BDILIButton>().OnPress =
+                () => VoicePrioritizationPatch.PrioritizedPeople.Clear();
     }
 }
