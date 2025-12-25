@@ -22,7 +22,7 @@ public class Plugin : BaseUnityPlugin
 
     public static Dictionary<string, string> KnownCheats;
     public static Dictionary<string, string> KnownMods;
-    public static string[]                   HanSoloPlayerIDs;
+    public static string[]                   HanSoloPlayerIDs; // I see someone has a superiority complex ig :sob:
 
     public static Color MainColour;
     public static Color SecondaryColour;

@@ -1,0 +1,167 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\toggle\\Projects\\BoyDoILoveInformation-LeftHanded\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E24B586E-0D97-4037-AF0F-AC4AD8636305}|BoyDoILoveInformation\\BoyDoILoveInformation.csproj|c:\\users\\toggle\\projects\\boydoiloveinformation-lefthanded\\boydoiloveinformation\\tab handlers\\informationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E24B586E-0D97-4037-AF0F-AC4AD8636305}|BoyDoILoveInformation\\BoyDoILoveInformation.csproj|solutionrelative:boydoiloveinformation\\tab handlers\\informationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24B586E-0D97-4037-AF0F-AC4AD8636305}|BoyDoILoveInformation\\BoyDoILoveInformation.csproj|c:\\users\\toggle\\projects\\boydoiloveinformation-lefthanded\\boydoiloveinformation\\patches\\playerrigcachedpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E24B586E-0D97-4037-AF0F-AC4AD8636305}|BoyDoILoveInformation\\BoyDoILoveInformation.csproj|solutionrelative:boydoiloveinformation\\patches\\playerrigcachedpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24B586E-0D97-4037-AF0F-AC4AD8636305}|BoyDoILoveInformation\\BoyDoILoveInformation.csproj|c:\\users\\toggle\\projects\\boydoiloveinformation-lefthanded\\boydoiloveinformation\\boydoiloveinformation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E24B586E-0D97-4037-AF0F-AC4AD8636305}|BoyDoILoveInformation\\BoyDoILoveInformation.csproj|solutionrelative:boydoiloveinformation\\boydoiloveinformation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24B586E-0D97-4037-AF0F-AC4AD8636305}|BoyDoILoveInformation\\BoyDoILoveInformation.csproj|c:\\users\\toggle\\projects\\boydoiloveinformation-lefthanded\\boydoiloveinformation\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E24B586E-0D97-4037-AF0F-AC4AD8636305}|BoyDoILoveInformation\\BoyDoILoveInformation.csproj|solutionrelative:boydoiloveinformation\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24B586E-0D97-4037-AF0F-AC4AD8636305}|BoyDoILoveInformation\\BoyDoILoveInformation.csproj|c:\\users\\toggle\\projects\\boydoiloveinformation-lefthanded\\boydoiloveinformation\\tools\\bdiliutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E24B586E-0D97-4037-AF0F-AC4AD8636305}|BoyDoILoveInformation\\BoyDoILoveInformation.csproj|solutionrelative:boydoiloveinformation\\tools\\bdiliutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24B586E-0D97-4037-AF0F-AC4AD8636305}|BoyDoILoveInformation\\BoyDoILoveInformation.csproj|c:\\users\\toggle\\projects\\boydoiloveinformation-lefthanded\\boydoiloveinformation\\core\\bdilibutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E24B586E-0D97-4037-AF0F-AC4AD8636305}|BoyDoILoveInformation\\BoyDoILoveInformation.csproj|solutionrelative:boydoiloveinformation\\core\\bdilibutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24B586E-0D97-4037-AF0F-AC4AD8636305}|BoyDoILoveInformation\\BoyDoILoveInformation.csproj|c:\\users\\toggle\\projects\\boydoiloveinformation-lefthanded\\boydoiloveinformation\\tab handlers\\actionshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E24B586E-0D97-4037-AF0F-AC4AD8636305}|BoyDoILoveInformation\\BoyDoILoveInformation.csproj|solutionrelative:boydoiloveinformation\\tab handlers\\actionshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24B586E-0D97-4037-AF0F-AC4AD8636305}|BoyDoILoveInformation\\BoyDoILoveInformation.csproj|c:\\users\\toggle\\projects\\boydoiloveinformation-lefthanded\\boydoiloveinformation\\core\\menuhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E24B586E-0D97-4037-AF0F-AC4AD8636305}|BoyDoILoveInformation\\BoyDoILoveInformation.csproj|solutionrelative:boydoiloveinformation\\core\\menuhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24B586E-0D97-4037-AF0F-AC4AD8636305}|BoyDoILoveInformation\\BoyDoILoveInformation.csproj|c:\\users\\toggle\\projects\\boydoiloveinformation-lefthanded\\boydoiloveinformation\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E24B586E-0D97-4037-AF0F-AC4AD8636305}|BoyDoILoveInformation\\BoyDoILoveInformation.csproj|solutionrelative:boydoiloveinformation\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BoyDoILoveInformation.csproj",
+              "DocumentMoniker": "C:\\Users\\toggle\\Projects\\BoyDoILoveInformation-LeftHanded\\BoyDoILoveInformation\\BoyDoILoveInformation.csproj",
+              "RelativeDocumentMoniker": "BoyDoILoveInformation\\BoyDoILoveInformation.csproj",
+              "ToolTip": "C:\\Users\\toggle\\Projects\\BoyDoILoveInformation-LeftHanded\\BoyDoILoveInformation\\BoyDoILoveInformation.csproj",
+              "RelativeToolTip": "BoyDoILoveInformation\\BoyDoILoveInformation.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-25T05:02:02.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerRigCachedPatch.cs",
+              "DocumentMoniker": "C:\\Users\\toggle\\Projects\\BoyDoILoveInformation-LeftHanded\\BoyDoILoveInformation\\Patches\\PlayerRigCachedPatch.cs",
+              "RelativeDocumentMoniker": "BoyDoILoveInformation\\Patches\\PlayerRigCachedPatch.cs",
+              "ToolTip": "C:\\Users\\toggle\\Projects\\BoyDoILoveInformation-LeftHanded\\BoyDoILoveInformation\\Patches\\PlayerRigCachedPatch.cs",
+              "RelativeToolTip": "BoyDoILoveInformation\\Patches\\PlayerRigCachedPatch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T04:55:44.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InformationHandler.cs",
+              "DocumentMoniker": "C:\\Users\\toggle\\Projects\\BoyDoILoveInformation-LeftHanded\\BoyDoILoveInformation\\Tab Handlers\\InformationHandler.cs",
+              "RelativeDocumentMoniker": "BoyDoILoveInformation\\Tab Handlers\\InformationHandler.cs",
+              "ToolTip": "C:\\Users\\toggle\\Projects\\BoyDoILoveInformation-LeftHanded\\BoyDoILoveInformation\\Tab Handlers\\InformationHandler.cs",
+              "RelativeToolTip": "BoyDoILoveInformation\\Tab Handlers\\InformationHandler.cs",
+              "ViewState": "AgIAAMkAAAAAAAAAAAAkwGoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T04:35:17.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BDILIUtils.cs",
+              "DocumentMoniker": "C:\\Users\\toggle\\Projects\\BoyDoILoveInformation-LeftHanded\\BoyDoILoveInformation\\Tools\\BDILIUtils.cs",
+              "RelativeDocumentMoniker": "BoyDoILoveInformation\\Tools\\BDILIUtils.cs",
+              "ToolTip": "C:\\Users\\toggle\\Projects\\BoyDoILoveInformation-LeftHanded\\BoyDoILoveInformation\\Tools\\BDILIUtils.cs",
+              "RelativeToolTip": "BoyDoILoveInformation\\Tools\\BDILIUtils.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAEIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T04:30:44.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BDILIButton.cs",
+              "DocumentMoniker": "C:\\Users\\toggle\\Projects\\BoyDoILoveInformation-LeftHanded\\BoyDoILoveInformation\\Core\\BDILIButton.cs",
+              "RelativeDocumentMoniker": "BoyDoILoveInformation\\Core\\BDILIButton.cs",
+              "ToolTip": "C:\\Users\\toggle\\Projects\\BoyDoILoveInformation-LeftHanded\\BoyDoILoveInformation\\Core\\BDILIButton.cs",
+              "RelativeToolTip": "BoyDoILoveInformation\\Core\\BDILIButton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T04:28:47.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ActionsHandler.cs",
+              "DocumentMoniker": "C:\\Users\\toggle\\Projects\\BoyDoILoveInformation-LeftHanded\\BoyDoILoveInformation\\Tab Handlers\\ActionsHandler.cs",
+              "RelativeDocumentMoniker": "BoyDoILoveInformation\\Tab Handlers\\ActionsHandler.cs",
+              "ToolTip": "C:\\Users\\toggle\\Projects\\BoyDoILoveInformation-LeftHanded\\BoyDoILoveInformation\\Tab Handlers\\ActionsHandler.cs",
+              "RelativeToolTip": "BoyDoILoveInformation\\Tab Handlers\\ActionsHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T04:28:35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MenuHandler.cs",
+              "DocumentMoniker": "C:\\Users\\toggle\\Projects\\BoyDoILoveInformation-LeftHanded\\BoyDoILoveInformation\\Core\\MenuHandler.cs",
+              "RelativeDocumentMoniker": "BoyDoILoveInformation\\Core\\MenuHandler.cs",
+              "ToolTip": "C:\\Users\\toggle\\Projects\\BoyDoILoveInformation-LeftHanded\\BoyDoILoveInformation\\Core\\MenuHandler.cs",
+              "RelativeToolTip": "BoyDoILoveInformation\\Core\\MenuHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T04:26:28.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Plugin.cs",
+              "DocumentMoniker": "C:\\Users\\toggle\\Projects\\BoyDoILoveInformation-LeftHanded\\BoyDoILoveInformation\\Plugin.cs",
+              "RelativeDocumentMoniker": "BoyDoILoveInformation\\Plugin.cs",
+              "ToolTip": "C:\\Users\\toggle\\Projects\\BoyDoILoveInformation-LeftHanded\\BoyDoILoveInformation\\Plugin.cs",
+              "RelativeToolTip": "BoyDoILoveInformation\\Plugin.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAIwBgAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T04:17:25.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Constants.cs",
+              "DocumentMoniker": "C:\\Users\\toggle\\Projects\\BoyDoILoveInformation-LeftHanded\\BoyDoILoveInformation\\Constants.cs",
+              "RelativeDocumentMoniker": "BoyDoILoveInformation\\Constants.cs",
+              "ToolTip": "C:\\Users\\toggle\\Projects\\BoyDoILoveInformation-LeftHanded\\BoyDoILoveInformation\\Constants.cs",
+              "RelativeToolTip": "BoyDoILoveInformation\\Constants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T04:17:05.123Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

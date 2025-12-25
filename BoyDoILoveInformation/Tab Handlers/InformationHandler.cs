@@ -58,8 +58,8 @@ public class InformationHandler : TabHandlerBase
     {
         if (ChosenRig == null)
         {
-            Vector3 origin    = BDILIUtils.RealRightController.position;
-            Vector3 direction = BDILIUtils.RealRightController.forward;
+            Vector3 origin    = BDILIUtils.RealLeftController.position;
+            Vector3 direction = BDILIUtils.RealLeftController.forward;
 
             if (PhysicsRaycast(origin,      direction,
                         out RaycastHit hit, out VRRig rig))
@@ -92,7 +92,7 @@ public class InformationHandler : TabHandlerBase
         else
         {
             line.enabled = false;
-            int    fpsInt = ChosenRig.fps;
+            int fpsInt = ChosenRig.fps;
             string colour = fpsInt < 60 ? "red" : fpsInt < 72 ? "yellow" : "green";
             fps.text        = $"<color={colour}>{fpsInt}</color> FPS";
             colourCode.text = ParseIntoColourCode(ChosenRig.playerColor);
@@ -103,7 +103,7 @@ public class InformationHandler : TabHandlerBase
                 ping.text      = $"{ChosenRig.GetPing()} ms";
             }
 
-            if (ControllerInputPoller.instance.rightControllerSecondaryButton)
+            if (ControllerInputPoller.instance.leftControllerSecondaryButton)
             {
                 ChosenRig = null;
                 HighlightPlayer(null);
@@ -135,7 +135,7 @@ public class InformationHandler : TabHandlerBase
         if (rig == null)
             return;
 
-        string special = Plugin.HanSoloPlayerIDs.Contains(rig.OwningNetPlayer.UserId) ? " : HanSolo1000Falcon" : "";
+        string special = Plugin.HanSoloPlayerIDs.Contains(rig.OwningNetPlayer.UserId) ? " : HanSolo1000Falcon" : ""; // This is very funny to look at
         playerName.text          = rig.OwningNetPlayer.SanitizedNickName + special;
         accountCreationDate.text = rig.GetAccountCreationDate().ToString("dd/MM/yyyy");
         platform.text            = rig.GetPlatform().ParsePlatform();
